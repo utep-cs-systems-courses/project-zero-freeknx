@@ -26,3 +26,21 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+// Prints an arrow.
+void print_arrow()
+{
+  print_triangle(3,5);
+  print_square(6,5);
+  /*int i, j;
+  int endCol = leftCol + size;
+  for(int row = 0; row < size; row++){
+    int maxCol = leftCol + size + row;
+    int col;
+  for (int row = 0; row < size; row++){
+    int col;
+    for (col = 0; col < leftCol; col++) putchar(' ');
+    for (       ; col < endCol;  col++) putchar('*');
+    putchar('\n');
+  }*/
+   
+}
